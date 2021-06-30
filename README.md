@@ -9,6 +9,14 @@ Christophe Royer, Elizabeth Sandham, Elizabeth Slee, Jonathan Godwin, Nisha Veit
 
 bioRxiv 2020.11.03.366906; doi: https://doi.org/10.1101/2020.11.03.366906 
 
-Detailed description on the Macro written by B. Christoffer Lagerholm and Falk Schneider (WIMM, University of Oxford)
+Detailed description and comments on the Macro! 
+Code written by B. Christoffer Lagerholm and Falk Schneider (WIMM, University of Oxford).
+
+Briefly, the Macro takes an exported FLIM image (exported from Leica SP8 FALCON). It requires either the intensity image or a corresponding RGB PhasorFLIM Image for ROI selection and the FLIM image to extract the lifetimes per defined ROI. Lifetimes are saved to a .csv-file. 
+
+FLIMPhasorAnalysis_BCL_FS.ijm
+Original Macro as used in the paper. See Materials and Methods. 
 
 
+FLIMPhasorAnalysis_BCL_FS_v02.ijm
+Allows to also export the intensity values per pixel. (Takes the intensity image as additional input.) 
