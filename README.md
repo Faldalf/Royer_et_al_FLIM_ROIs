@@ -20,3 +20,5 @@ Original Macro as used in the paper. See Materials and Methods.
 
 FLIMPhasorAnalysis_BCL_FS_v02.ijm
 Allows to also export the intensity values per pixel. (Takes the intensity image as additional input.) 
+
+The folder "\Example_Image" contains one exemplary embryo measurement: RGB phasor-FLIM image (for segmentation), intensity image (ch0, for segmentation and assessment of photon counts) and lifetime image (ch1).
